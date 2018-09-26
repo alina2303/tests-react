@@ -1454,6 +1454,10 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.5:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+
 clean-css@4.1.x:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.1.11.tgz#2ecdf145aba38f54740f26cefd0ff3e03e125d6a"
@@ -4644,6 +4648,10 @@ nan@^2.9.2:
   version "2.10.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.10.0.tgz#96d0cd610ebd58d4b4de9cc0c6828cda99c7548f"
 
+nanoid@^1.0.7:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-1.2.3.tgz#b8f022193a5808f9e3112658a2c34e43b24c009a"
+
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -5534,7 +5542,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.6.0:
+prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   dependencies:
@@ -5692,6 +5700,19 @@ react-dom@^16.4.1:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+    prop-types "^15.6.0"
+
+react-drag-drop-container@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/react-drag-drop-container/-/react-drag-drop-container-6.1.1.tgz#9ba08eb2bfe14202f179d601227b0ae5b589de48"
+  dependencies:
+    prop-types "^15.6.2"
+
+react-draggable@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/react-draggable/-/react-draggable-3.0.5.tgz#c031e0ed4313531f9409d6cd84c8ebcec0ddfe2d"
+  dependencies:
+    classnames "^2.2.5"
     prop-types "^15.6.0"
 
 react-error-overlay@^4.0.0:
@@ -6285,6 +6306,12 @@ shell-quote@1.6.1:
 shellwords@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
+
+shortid@2.2.13:
+  version "2.2.13"
+  resolved "https://registry.yarnpkg.com/shortid/-/shortid-2.2.13.tgz#b2441e71c664ace458a341d343959f677910ef5b"
+  dependencies:
+    nanoid "^1.0.7"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"

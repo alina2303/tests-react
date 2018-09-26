@@ -197,9 +197,10 @@ h4  {
 }
 
 body {
-	background-image: url("../img/metal.jpg");
-	/* background-image: url("../img/11.jpg");
+	/*background-image: url("../img/metal.jpg");
+	background-image: url("../img/11.jpg");
 	background: url(http://37.media.tumblr.com/f6c67ec2821a91051e4175f8a102e1e2/tumblr_n6rzpcsMk41st5lhmo1_1280.jpg) 50% 50% / cover;*/
+	background-color: #edf0f7;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -1367,4 +1368,86 @@ padding-top: 0;
 	border-width: 0 3.5px 10px 3.5px;
 	border-color: transparent transparent #e63900 transparent;
 
+}
+
+.form-group.dgaggable-sentences .container-drag .droppable {
+	max-width: 70%;
+	height: 180px;
+	background-color: #f9d6e1;
+	margin: 0 auto;
+	border: solid #535860 0.5px;
+	border-radius: 25px;
+	padding: 10px;
+
+	
+}
+
+.form-group.dgaggable-sentences 
+.container-drag .draggable {
+	padding-top: 10px;
+
+}
+.form-group.dgaggable-sentences.disabled-drag {
+	pointer-events: none;
+}
+
+.container-drag p {
+	display: inline-block;
+	min-height: 15rem;
+	width: 60%;
+	background: #eccfd4 !important;
+	border-radius: 1rem;
+	border: 1px solid #000;
+	margin-bottom: 2rem;
+	padding: 8px;
+}
+.container-drag.box p{
+	display: inline-block;
+	min-height: 15rem;
+	width: 100%;
+	background: #eccfd4 !important;
+	border-radius: 1rem;
+	border: 1px solid #000;
+	margin-bottom: 2rem;
+	padding: 8px;
+}
+.container-drag.box .row.flex .col div{
+	font-style: italic;
+	display: inline-block;
+}
+.container-drag.box .row.flex 
+.col .placeHolder-name {
+	font-style: normal;
+}
+.row.flex .col {
+	width: 35%;
+	margin-right: 3rem;
+}
+.flex.words-box .col div {
+	display: inline-block;
+	font-style: italic;
+	
+}
+.flex.words-box .col.right {
+	width: 39%;
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+.flex .col.left {
+	width: 40%;
+}
+.flex .col.right {
+	width: 60%;
+}
+.flex .col div  {
+	margin: 2px 0px 0px 4px;
+	
+}
+.test  {
+	color: red;
+}
+.green {
+	color: green;
 }

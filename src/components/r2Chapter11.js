@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+var shortid = require('shortid');
 
 
 class Red2Chapter11 extends Component {
